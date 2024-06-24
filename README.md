@@ -96,6 +96,7 @@ def mostrar_diagnostico(app):
 
 ```
 ## Instalación y Ejecución
+Es recomendable hacer un entorno virtual para el uso de la dependecia pillow
 1. Python 3.11 
 2. Tkinter 
 3. Pillow (PIL)
