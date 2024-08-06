@@ -1,0 +1,63 @@
+# Sistema Experto - Plan Alimenticio
+
+Este proyecto es un sistema experto diseñado para recomendar planes alimenticios basados en las respuestas del usuario a una serie de preguntas. Utiliza la librería Tkinter para la interfaz gráfica y Pillow para el manejo de imágenes.
+
+## Requisitos
+
+- Python 3.7 o superior
+- Virtualenv (opcional pero recomendado)
+
+## Instalación
+
+1. **Clona este repositorio**:
+
+    ```bash
+    git clone <URL_DEL_REPOSITORIO>
+    cd <NOMBRE_DEL_REPOSITORIO>
+    ```
+
+2. **Crea y activa un entorno virtual**:
+
+    En Windows:
+    ```bash
+    python -m venv env
+    .\env\Scripts\activate
+    ```
+
+    En macOS y Linux:
+    ```bash
+    python3 -m venv env
+    source env/bin/activate
+    ```
+
+3. **Actualiza `pip`**:
+
+    ```bash
+    python -m pip install --upgrade pip
+    ```
+
+4. **Instala las dependencias**:
+
+    ```bash
+    pip install Pillow
+    ```
+
+## Uso
+
+1. **Ejecuta la aplicación**:
+
+    ```bash
+    python main.py
+    ```
+
+## Estructura del Proyecto
+
+- `main.py`: El punto de entrada de la aplicación.
+- `diagnostico_app.py`: Contiene la lógica principal del sistema experto.
+- `interfaz.py`: Gestiona la interfaz gráfica de usuario.
+- `preguntas.py`: Contiene las preguntas y las rutas a las imágenes asociadas.
+- `planes.py`: Contiene los diferentes planes alimenticios basados en las categorías.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Por favor, abre un issue para discutir cualquier cambio importante antes de enviar un pull request.
