@@ -34,6 +34,3 @@ class DiagnosticoApp:
     def mostrar_diagnostico(self):
         mostrar_diagnostico(self)
 
-
-
-
