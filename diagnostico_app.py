@@ -1,17 +1,17 @@
 from tkinter import Toplevel
 from preguntas import preguntas
-from tratamientos import tratamientos
+from planes import planes
 from interfaz import crear_interfaz, mostrar_pregunta, mostrar_diagnostico
 
 class DiagnosticoApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Sistema Experto - Diagnóstico de Hardware")
+        self.root.title("Sistema Experto - Plan Alimenticio")
         self.root.geometry("600x800")
         
         self.preguntas = preguntas
         self.respuestas = []
-        self.tratamientos = tratamientos
+        self.planes = planes
         
         self.setup_ui()
     
@@ -33,4 +33,3 @@ class DiagnosticoApp:
     
     def mostrar_diagnostico(self):
         mostrar_diagnostico(self)
-
